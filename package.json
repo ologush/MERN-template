@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client": "cd dataform && npm start",
-    "server": "cd server && npm start",
+    "client": "cd frontend && npm start",
+    "server": "cd backend && npm start",
     "start": "concurrently -kill-others \"npm run server\" \"npm run client\""
   },
   "keywords": [],
